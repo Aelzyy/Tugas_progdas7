@@ -1,19 +1,148 @@
 @font-face {
     font-family: quicksand;
-    src: url(quicksand-v30-latin-regular.woff);
+    src: url(assets/quicksand-v30-latin-regular.woff);
 }
 
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    transition: 0,55;
-    font-family: quicksand,sans-serif;
+    transition: 0.5s;
+    font-family: quicksand, sans-serif;
 }
 
 nav{
-    border: 3px solid #6e49ea;
-    border-left: 0px;
-    border-right: 0px;
+    border: 3px solid #6E49EA;
+    border-left: none;
+    border-right: none;
     height: 60px;
+    background-color: #303330;
+    position: sticky;
+    top: 0;
+    text-align: center;
+}
+
+.bar{
+    display: inline-block;
+    padding: 15px;
+    font-weight: bold;
+    
+}
+
+.left{
+    float: left;
+}
+
+.right{
+    float: right;
+}
+
+.center{
+    margin-left: -150px;
+}
+
+a{
+    color: white;
+    text-decoration: none;
+    padding: 15px;
+}
+
+a:hover{
+    background-color: #6E49EA;
+    transition: 0.5s;
+}
+
+/* hero */
+.hero{
+    text-align: center;
+    width: 45%;
+    margin: 30px auto;
+}
+
+.hero h1{
+    margin-bottom: 10px;
+}
+
+.hero h5{
+    line-height: 25px;
+}
+
+/* main */
+main{
+    margin-top: 25px;
+    height: fit-content;
+}
+
+.sr h4{
+    margin:15px auto;
+    border-bottom: #6E49EA;
+    max-width: 214px;
+    align-content: center;
+    text-align: center;
+}
+
+.row{
+    width: 100%;
+    margin: 10px 0px ;
+}
+
+.row img{
+    border: #303330 3px solid;
+    width: 47%;
+    height: 0px 5px;
+
+}
+
+.jumbo{
+    margin: 5px 0;
+    float: right;
+    width: 54.5%;
+}
+
+.jumbo img{
+    border: #303330 3px solid;
+    width: 100%;
+    /* margin-top: 5px; */
+
+}
+
+.in{
+    display: inline-block;
+    width: 45%;
+}
+
+.slide {
+   padding: 0px 4%;
+}
+
+.content{
+    padding: 50px;
+    background-color: #212429;
+}
+
+.content article {
+    color:#F6F6F6;
+    margin:48px;
+    display: inline-block;
+    max-width: 25%;
+}
+
+h3{
+    font-weight: bold;
+    font-size: 33px;
+}
+
+.about{
+padding: 0px 60px 200px;
+}
+
+.me{
+    margin-top: 20px ;
+    max-width: 770px;
+}
+
+.about img {
+    float: right;
+    max-width: 500px;
+    margin-top: -50px;
 }
